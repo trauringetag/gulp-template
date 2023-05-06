@@ -1,0 +1,1 @@
+export const baseFunction = (name) => `Hello, ${name}!`;

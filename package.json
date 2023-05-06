@@ -1,0 +1,60 @@
+{
+	"name": "gulp-template",
+	"version": "1.0.0",
+	"description": "Task manager Gulp for website develompent",
+	"main": "index.js",
+	"scripts": {
+		"start": "gulp",
+		"build": "gulp --production"
+	},
+	"browserslist": [
+		"last 3 versions"
+	],
+	"babel": {
+		"presets": [
+			"@babel/preset-env"
+		]
+	},
+	"keywords": [
+		"task manager",
+		"gulp",
+		"website",
+		"develompent",
+		"scss",
+		"npm",
+		"package"
+	],
+	"author": "trauringetag <humans.vlone@gmail.com>",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.21.8",
+		"@babel/preset-env": "^7.21.5",
+		"@babel/register": "^7.21.0",
+		"browser-sync": "^2.29.1",
+		"del": "^6.1.1",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^8.0.0",
+		"gulp-babel": "^8.0.0",
+		"gulp-csso": "^4.0.1",
+		"gulp-file-include": "^2.3.0",
+		"gulp-fonter-fix": "^0.0.1",
+		"gulp-group-css-media-queries": "^1.2.2",
+		"gulp-htmlmin": "^5.0.1",
+		"gulp-imagemin": "^7.1.0",
+		"gulp-load-plugins": "^2.0.8",
+		"gulp-newer": "^1.4.0",
+		"gulp-notify": "^4.0.0",
+		"gulp-plumber": "^1.2.1",
+		"gulp-rename": "^2.0.0",
+		"gulp-sass": "^5.1.0",
+		"gulp-sass-glob": "^1.1.0",
+		"gulp-shorthand": "^1.1.0",
+		"gulp-size": "^4.0.1",
+		"gulp-ttf2woff2": "^4.0.1",
+		"gulp-webp": "^4.0.1",
+		"gulp-webp-css": "^1.1.0",
+		"gulp-webp-html": "^1.0.2",
+		"sass": "^1.62.1",
+		"webpack-stream": "^7.0.0"
+	}
+}
